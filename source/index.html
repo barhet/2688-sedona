@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sedona</title>
+        <!--<link href="style.css" rel="stylesheet">-->
+    </head>
+   <body>
+   <header>   
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+     <nav class="main-nav">
+      <ul class="">
+        <li class=""><a href="">Главная</a></li>
+        <li class=""><a href="">Фото и видео</a></li>
+        <li class=""><a href="">Форма отзыва</a></li>
+        <li class=""><a href="">HTML Academy</a></li>
+     </ul>
+    </nav>
 
-  </body>
+    <a class="" >
+       <img class="page-header__logo" src="img/logotype-mobile.svg" width="102" height="83" alt="Sedona">
+      </a>
+        <nav class="main-nav--burger">
+        <ul class="">
+          <li class=""><a href="" class="current">Главная</a></li>
+          <li class=""><a href="">Фото и видео</a></li>
+          <li class=""><a href="">Форма отзыва</a></li>
+          <li class=""><a href="">HTML Academy</a></li>
+     </ul>
+    </nav>
+
+    <a class="" >
+       <img class="page-header__intro" src="img/intro-triangle.svg" width="320" height="389" alt="Welcome to the gorgeous Sedona">
+      </a>
+      <!--Я правильно понимаю, что это просто текст с разными стилями и каждому <p> можно дать свой класс. Только наверное есть более грамотный способ? -->
+      <p class="">Welcome </p>
+      <p class="">to the gorgeous</p>
+      <p class="">Sedona</p>      
+      <p class="">"Because the grand canyon sucks!"</p>
+
+  </header>
+
+  <main>
+    <h1 class="">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <p class="">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+
+    <!--Тут явно типичные блоки по БЭМ, но как правильно все оформить пока не очень понимаю. Классы пока не ставила.
+    Как лучше сделать иконки?
+    Еще не очень понимаю как использовать изображение @1x Это ведь для резиновой верстки?-->
+    
+    <section class="">
+      <h2 class="">Настоящий городок </h2>
+     <p class=""> -№1-</p>
+     <p class=""> Седона не аттракцион для туристов, там течет своя жизнь</p>
+     <a class=""> <img class="" src="img/photo-city@1x"> </a>
+    
+    <ul class="">
+      <li class="">
+        <a class="" ><img class="" src="img/ikon-house.jpg" width="39" height="39"> </a>  
+        <h3 class="">Жилье</h3>
+        <p class="">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+      </li>
+      <li class="">
+        <a class="" ><img class="" src="img/ikon-gift.jpg" width="39" height="39"> </a>  
+        <h3 class="">Сувениры</h3>
+        <p class="">Не только китайского, но и местного производства!</p>
+      </li>
+      <li class="">
+        <a class="" ><img class="" src="img/ikon-burger.jpg" width="39" height="39"> </a>  
+        <h3 class="">Еда</h3>
+        <p class="">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+      </li>
+    </ul>
+    </section>
+
+    <section class="">
+     <h2 class="">Там есть мост дьявола</h2>
+     <p class="">-№2-</p>
+     <p class="">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+     <a class="" ><img class="" src="img/photo-bridge@1x"> </a>
+    </section>
+   
+   <section class="">
+     <h2 class="">Небольшая площадь</h2>
+     <p class="">-№3-</p>
+     <p class="">Все интересные места находятся очень близко</p>
+   </section>
+
+    <section class="">
+     <h2 class="">Красивая дорога</h2>
+     <p class="">-№4-</p>
+     <p class="">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+    </section>
+
+    <section class="">
+     <h2 class="">Мало туристов</h2>
+     <p class="">-№5-</p>
+     <p class="">Большинство едет в гранд каньон и толпится там</p>
+   </section>
+  </main>
+
+  
+  <section class="">
+    <p class="">Заинтересовались?</p>
+    <p class="">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+    <button class="" type="button" onClick='location.href="http://"'>Найти гостиницу</button>
+  </section>
+
+  <section class="">
+    
+<iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCBtmgN-yA1FS8ZoVNhXwqiGGAqyWHqnJU
+  &q=Sedona+Arizona" allowfullscreen>
+</iframe>
+
+</section>
+
+<footer class="page-footer">
+      <p class="">#visitsedona</p>
+
+      <div class="page-footer__social social">
+          <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="https://twitter.com/sedona">Мы в Твиттере</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/sedona">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/sedona">Мы на Youtube</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано</b>
+        <a class="" href="https://htmlacademy.ru/intensive/adaptive"><img class="" src="img/htmlacademy.svg" > </a>  
+      </div>
+</footer>
+
+    </body>
 </html>
